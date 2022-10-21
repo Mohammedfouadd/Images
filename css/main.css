@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.contaier{
+    position: relative;
+    width: 800;
+   
+    margin: 40px auto ;
+    padding: 10px;
+    background-color: #eee;
+  
+}
+.contaier .image-box{
+    z-index: 3;
+    background-color: white;
+    text-align: center;
+    height: 400px;
+}
+.contaier .image-box .box {
+text-align: center;
+}
+
+.contaier .image-box .box p{
+font-size: 30px;
+top: 50%;
+}
+
+.contaier .buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.contaier .buttons .number{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+.contaier .buttons .number span{
+    background-color: rgb(202, 178, 178);
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.contaier .buttons .number .on{
+    background-color: rgb(107, 107, 211);
+    color: white;
+}
+
+.contaier .buttons .next,
+.contaier .buttons .previous{
+padding: 10px 15px;
+font-size: 18px;
+font-weight: bold;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+color: white;
+}
+    
+.contaier .buttons .next{
+    background-color:rgb(107, 107, 211);
+}
+.contaier .buttons .previous{
+    background-color:rgb(156, 97, 97);
+}
+
